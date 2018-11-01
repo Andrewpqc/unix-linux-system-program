@@ -15,7 +15,7 @@ LINK_DIRECTORIES(/usr/local/lib /usr/lib)
 
 #用于指定从一组源文件 source1 source2 … sourceN(在变量DIR_SRCS中定义)
 #编译出一个可执行文件且命名为CMake_Tutorial1
-ADD_EXECUTABLE(tempfile tempfile.c)
+ADD_EXECUTABLE(tempfile mkstemp.c)
 ADD_EXECUTABLE(tmpfile tmpfile.c)
 
 
