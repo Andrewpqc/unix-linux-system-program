@@ -27,5 +27,6 @@ ADD_EXECUTABLE(unlink chapter18_directory_and_link/unlink.c)
 TARGET_LINK_LIBRARIES(unlink errorFunc)
 
 
-
+ADD_EXECUTABLE(symlink chapter18_directory_and_link/symlink.c)
+TARGET_LINK_LIBRARIES(symlink errorFunc)
 
