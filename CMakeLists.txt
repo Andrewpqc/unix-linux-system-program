@@ -46,3 +46,6 @@ TARGET_LINK_LIBRARIES(scanProcessID errorFunc)
 
 ADD_EXECUTABLE(sigset chapter20_signal_basic_concept/sigset.c)
 TARGET_LINK_LIBRARIES(sigset errorFunc)
+
+ADD_EXECUTABLE(nonreentrant chapter21_signal_signal_handler/nonreentrant.c)
+TARGET_LINK_LIBRARIES(nonreentrant errorFunc crypt)
