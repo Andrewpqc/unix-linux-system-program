@@ -2,7 +2,6 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-
 #define BUF_SIZE 1024
 
 int main(int argc, char **argv) {
@@ -38,7 +37,6 @@ int main(int argc, char **argv) {
     readlink("ename.c.inc.link", linkBuf, BUF_SIZE);
     puts("\n\n\ncontent of the like file\n");
     puts(linkBuf);
-
 
     return 0;
 }

@@ -30,3 +30,6 @@ TARGET_LINK_LIBRARIES(unlink errorFunc)
 ADD_EXECUTABLE(symlink chapter18_directory_and_link/symlink.c)
 TARGET_LINK_LIBRARIES(symlink errorFunc)
 
+
+ADD_EXECUTABLE(inotify chapter19_monitor_file_events/inotify.c)
+TARGET_LINK_LIBRARIES(inotify errorFunc)
