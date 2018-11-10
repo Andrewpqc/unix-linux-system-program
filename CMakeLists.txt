@@ -33,3 +33,7 @@ TARGET_LINK_LIBRARIES(symlink errorFunc)
 
 ADD_EXECUTABLE(inotify chapter19_monitor_file_events/inotify.c)
 TARGET_LINK_LIBRARIES(inotify errorFunc)
+
+
+ADD_EXECUTABLE(signal chapter20_basic_concept/signal.c)
+TARGET_LINK_LIBRARIES(signal errorFunc)
