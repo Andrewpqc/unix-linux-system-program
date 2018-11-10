@@ -35,5 +35,8 @@ ADD_EXECUTABLE(inotify chapter19_monitor_file_events/inotify.c)
 TARGET_LINK_LIBRARIES(inotify errorFunc)
 
 
-ADD_EXECUTABLE(signal chapter20_basic_concept/signal.c)
+ADD_EXECUTABLE(signal chapter20_signal_basic_concept/signal.c)
 TARGET_LINK_LIBRARIES(signal errorFunc)
+
+ADD_EXECUTABLE(intquit chapter20_signal_basic_concept/intquit.c)
+TARGET_LINK_LIBRARIES(intquit errorFunc)

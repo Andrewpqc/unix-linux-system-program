@@ -27,7 +27,12 @@ int main(int argc, char **argv) {
         errExit("error");
     }
 
-    while (1);
+    for (int i = 0;  ; ++i) {
+        printf("%d\n",i);
+
+        sleep(3);    /*loop slowly...*/
+        if(i==100) break;
+    }
 
     return 0;
 }
