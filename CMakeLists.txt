@@ -52,3 +52,6 @@ TARGET_LINK_LIBRARIES(nonreentrant errorFunc crypt)
 
 ADD_EXECUTABLE(siginfo chapter21_signal_signal_handler/siginfo.c)
 TARGET_LINK_LIBRARIES(siginfo errorFunc)
+
+ADD_EXECUTABLE(settimer chapter23_timer_and_sleep/settimer.c)
+TARGET_LINK_LIBRARIES(settimer errorFunc)
