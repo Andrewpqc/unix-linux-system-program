@@ -7,7 +7,6 @@
 #include "../lib/tlpi_hdr.h"
 
 static char *str2;
-static int handled = 0;
 
 void sigint_handler(int sig) {
     crypt(str2, "xx");

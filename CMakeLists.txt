@@ -49,3 +49,6 @@ TARGET_LINK_LIBRARIES(sigset errorFunc)
 
 ADD_EXECUTABLE(nonreentrant chapter21_signal_signal_handler/nonreentrant.c)
 TARGET_LINK_LIBRARIES(nonreentrant errorFunc crypt)
+
+ADD_EXECUTABLE(siginfo chapter21_signal_signal_handler/siginfo.c)
+TARGET_LINK_LIBRARIES(siginfo errorFunc)
