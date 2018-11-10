@@ -43,3 +43,6 @@ TARGET_LINK_LIBRARIES(intquit errorFunc)
 
 ADD_EXECUTABLE(scanProcessID chapter20_signal_basic_concept/scan_process_id.c)
 TARGET_LINK_LIBRARIES(scanProcessID errorFunc)
+
+ADD_EXECUTABLE(sigset chapter20_signal_basic_concept/sigset.c)
+TARGET_LINK_LIBRARIES(sigset errorFunc)
