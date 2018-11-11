@@ -10,7 +10,6 @@ void sigalrm_handler(int sig) {
 int main(int argc, char **argv) {
     char buf[BUFSIZ];
 
-
     struct sigaction sa;
     sigemptyset(&sa.sa_mask);
 

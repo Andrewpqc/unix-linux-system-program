@@ -58,3 +58,6 @@ TARGET_LINK_LIBRARIES(settimer errorFunc)
 
 ADD_EXECUTABLE(timedRead chapter23_timer_and_sleep/timed_read.c)
 TARGET_LINK_LIBRARIES(timedRead errorFunc)
+
+ADD_EXECUTABLE(fork_stdio_buf chapter25_termination_of_the_process/fork_stdio_buf.c)
+TARGET_LINK_LIBRARIES(fork_stdio_buf errorFunc)
