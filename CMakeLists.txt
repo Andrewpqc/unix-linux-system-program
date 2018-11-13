@@ -61,3 +61,7 @@ TARGET_LINK_LIBRARIES(timedRead errorFunc)
 
 ADD_EXECUTABLE(fork_stdio_buf chapter25_termination_of_the_process/fork_stdio_buf.c)
 TARGET_LINK_LIBRARIES(fork_stdio_buf errorFunc)
+
+
+ADD_EXECUTABLE(pthread_join_self chapter29_pthread_intro/pthread_join_self.c)
+TARGET_LINK_LIBRARIES(pthread_join_self errorFunc pthread)
