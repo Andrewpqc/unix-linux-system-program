@@ -68,3 +68,6 @@ TARGET_LINK_LIBRARIES(pthread_join_self errorFunc pthread)
 
 ADD_EXECUTABLE(pthread_mutex chapter30_thread_synchronization/pthread_mutex.c)
 TARGET_LINK_LIBRARIES(pthread_mutex errorFunc pthread)
+
+ADD_EXECUTABLE(simple_pipe chapter44_pipe_and_fifo/simple_pipe.c)
+TARGET_LINK_LIBRARIES(simple_pipe errorFunc)
