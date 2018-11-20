@@ -74,3 +74,12 @@ TARGET_LINK_LIBRARIES(simple_pipe errorFunc)
 
 ADD_EXECUTABLE(pipe_sync chapter44_pipe_and_fifo/pipe_sync.c)
 TARGET_LINK_LIBRARIES(pipe_sync errorFunc)
+
+ADD_EXECUTABLE(getaddrinfo chapter59_internet_domain_socket/getaddinfo.c)
+TARGET_LINK_LIBRARIES(getaddrinfo errorFunc)
+
+ADD_EXECUTABLE(inet_ntop chapter59_internet_domain_socket/inet_ntop.c)
+TARGET_LINK_LIBRARIES(inet_ntop errorFunc)
+
+ADD_EXECUTABLE(inet_pton chapter59_internet_domain_socket/inet_pton.c)
+TARGET_LINK_LIBRARIES(inet_pton errorFunc)
